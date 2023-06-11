@@ -1,0 +1,393 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:whitesmoke;
+/*    font-family: 'Roboto Serif', serif;
+font-family: 'Roboto', sans-serif; */
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 130px;
+    
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*Colores*/
+
+h1{
+    color:white;
+    font-family: 'Roboto Serif', serif;   
+}
+
+h2{
+    color:#D12F9B;
+}
+
+h3 strong{
+    color:#A7106F;
+    font-weight: 500;
+}
+
+.MarcoProducto h3{
+    color:#A7106F;
+}
+
+.OfertaPlantilla h3{
+    color:#A7106F;
+}
+
+.MarcoProducto a, .OfertaPlantilla a, .OfertasContainer a,
+input[type=submit],#Contacto a
+{
+    
+    width: 150px;
+    height: 64px;
+    display: block;
+    background-color: #A7106F;
+    color: white;
+    text-align: center;
+    line-height: 64px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.MarcoProducto a:hover, 
+.OfertaPlantilla a:hover,
+.OfertasContainer a:hover,
+input[type=submit]:hover,
+#Contacto a:hover
+{
+    
+    width: 150px;
+    height: 64px;
+    display: block;
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    line-height: 64px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+nav a:hover{
+    text-decoration: underline #A7106F 3px;
+    text-underline-offset: 16px;
+    
+
+}
+
+/*Barra*/
+
+.Barra{
+
+    height: 68px;
+    background-color: #2D2D2D;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo{
+    height: 68px;
+    margin: 0 auto;
+
+	display: flex;
+align-items: center;
+}
+
+.Direcciones{
+    margin: 0 auto;
+    display: flex;
+    height: 68px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    list-style-type: none;
+}
+
+.Direcciones a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+}
+
+/*Bienvenido*/
+
+header{
+    margin: 0 auto;
+    padding-bottom: 41px;
+
+}
+
+.Banner{
+    height: 498px;
+    margin: 0 auto;
+    background-image:url(img/1366x498.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+/*Colores Carusel*/
+
+.is-current,
+:root
+{
+    --f-button-color: #A7106F;
+    --f-carousel-dot-color: #A7106F;
+    
+}
+
+.f-carousel__dots{
+    --f-carousel-dot-color:rgb(2, 2, 2);
+}
+
+.f-carousel{
+    margin: 0 auto;
+    width:1366px;
+}
+
+
+/*
+<div class="Banner">
+
+                <div id="Inicio">
+                    <div class="BannerTexto">
+                        <h1>Bienvenido a Planticals </h1>
+                        <p>Compromiso Amor y calidad en forma de carpetas</p>
+                    </div>
+                </div>
+            </div>
+*/
+
+
+
+/*Productos*/
+
+.Productoscontainer{
+margin: 0 auto;
+text-align: center;
+padding-bottom: 76px;
+
+}
+
+.Productosflex{
+    justify-content: center;
+    display: flex;
+    width: 1107px;
+    margin: 0 auto;
+    
+}
+
+.MarcoProducto{
+    margin: 0 auto; 
+    text-align: left;
+}
+
+.MarcoProducto img{
+    margin: 0 auto; 
+    
+}
+
+.MarcoProducto a,
+.MarcoProducto a:hover
+{
+    margin-top: 56px;
+
+}
+
+/*Ofertas*/
+
+.OfertasContainer{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 47px;
+}
+
+.OfertasContainer a,
+.OfertasContainer a:hover
+
+{
+    justify-content: left;
+    margin-top: 48px;
+}
+
+.Ofertasflex{
+    justify-content: space-around;
+    display: flex;
+	flex-wrap: wrap;
+	align-items:center;
+    width: 1107px;
+    margin: 0 auto;
+	height: 800px;
+
+}
+
+.OfertaPlantilla a,
+.OfertaPlantilla a:hover
+{
+    margin: 0 auto;
+    width: 254px;
+    height: 290px;
+    background-image: url(img/Ofertas.png);
+    }
+
+    .OfertaPlantilla a:hover
+    {
+        background-color: rgb(250, 116, 255);
+        background-blend-mode: multiply;
+        background-image: url(img/Ofertas.png);
+        }    
+
+
+.OfertaPlantilla{
+margin: 0 auto;
+text-align: center;
+margin-bottom:35px
+}
+
+.OfertaPlantilla p{
+    font-style: italic;
+    color: #4F4F4F;
+    line-height: 5px;
+}
+
+/*Nosotros*/
+
+#Nosotros{
+padding-bottom: 50px;
+
+}
+
+.NosotrosCuadro{
+    
+    margin: 0 auto;
+    height: 686px;
+    background-image:url(img/Rosa.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    width:1366px;
+}
+
+.NosotrosFlex{
+   
+    height: 686px;
+    width: 1360px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.Texto{
+    
+    padding-top: 32px;
+    padding-left: 50px;
+    width:446px;
+    margin-left: 100px;
+display: flex;
+flex-direction: column
+
+}
+
+.Nosotros h2{
+    font-size: 55px;
+    color:#A7106F;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+/*Contacto*/
+
+#Contacto{
+    
+    margin:0 auto;
+    height: 502px;
+    width:1107px;
+
+}
+
+.ContactoFlex{
+    
+    
+    display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+form{
+display: flex;
+flex-direction: column;
+width: 348px;
+margin: 0 auto;
+}
+
+input[type=text]{
+
+	padding-left: 10px;
+    width: 349px;
+    height: 140px;
+    border: #615D5B 1px solid;
+    background-color: #EFEFEF;
+    margin-bottom:32px;
+
+}
+
+input[type=email]{
+	
+	padding-left: 10px;
+    width: 349px;
+    height: 39px;
+    border: #615D5B 1px solid;
+    background-color: #EFEFEF;
+}
+
+
+
+label{
+    color:#A7106F;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 14px;
+    margin-bottom: 14px;
+
+}
+
+/*footer*/
+
+footer{
+margin:0 auto;
+height: 119px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #2D2D2D;
+color:white;
+font-size: 12px;
+text-align: center;
+}
+
+
+

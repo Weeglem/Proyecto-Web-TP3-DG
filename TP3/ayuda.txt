@@ -1,0 +1,8 @@
+Header rompe la pagina
+Texto en el banner
+Arreglar cuadro de texto
+imagen de nosotros al costado.
+
+Si deberia usar figure para las imagenes
+
+Arreglar fondo nosotros
