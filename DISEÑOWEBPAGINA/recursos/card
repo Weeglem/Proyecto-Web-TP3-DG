@@ -1,8 +1,0 @@
-<div class="card p-2">
-                  <img src="https://fakeimg.pl/200x200" class="card-img-top" alt="...">
-                  <div class="card-body rojo bordenegro">
-                    <h5 class="card-title">OBRAS DE ARTE</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary" style="width: 100%;">Ver más</a>
-                  </div>
-                  </div>
